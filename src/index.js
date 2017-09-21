@@ -82,11 +82,12 @@ export default function createG2 (__operation) {
     },
 
     render (createElement) {
-      return createElement('div', {
-        attrs: {
-          id: this.chartId
-        }
-      })
+      // return createElement('div', {
+       // attrs: {
+          // id: this.chartId
+       // }
+      // })
+      return (<div id={this.chartId} />);
     }
   }
 }
